@@ -1,0 +1,34 @@
+[general]
+status_path = "~/.vdirsyncer/status/"
+
+[pair my_cal]
+a = "cm_cal"
+b = "td_cal"
+collections = ["from a", "from b"]
+
+[storage cm_cal]
+type = "filesystem"
+path = "~/.local/share/calendars/"
+fileext = ".ics"
+
+[storage td_cal]
+type = "caldav"
+url = "https://nc.nl.tab.digital/remote.php/dav"
+username = "charliemulder"
+password.fetch = ["prompt", "Password for CalDAV"]
+
+[pair my_contact]
+a = "cm_contacts"
+b = "td_contacts"
+collections = ["from a", "from b"]
+
+[storage cm_contacts]
+type = "filesystem"
+path = "~/.local/share/contacts"
+fileext = ".vcf"
+
+[storage td_contacts]
+type = "carddav"
+url = "https://nc.nl.tab.digital/remote.php/dav/addressbooks/users/charliemulder/contacts"
+username = "charliemulder"
+password = "gsb6ttuxLGbh"
