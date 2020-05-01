@@ -32,6 +32,12 @@ Link config
 ln -s $(pwd)/khal/config /home/cm/.config/khal/config
 ```
 
+Show events for week
+
+```sh
+khal list today 7d
+```
+
 ### todomann
 
 [Usage examples](https://todoman.readthedocs.io/en/stable/usage.html)
@@ -42,3 +48,6 @@ ln -s $(pwd)/todoman/todoman.conf ~/.config/todoman/todoman.conf
 ln -s $(which todoman) ~/bin/todo
 ```
 
+## Resources
+
+- [Simple Mobile Tools](https://www.simplemobiletools.com/)
