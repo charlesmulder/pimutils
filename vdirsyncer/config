@@ -5,6 +5,8 @@ status_path = "~/.vdirsyncer/status/"
 a = "cm_cal"
 b = "td_cal"
 collections = ["from a", "from b"]
+conflict_resolution = "a wins"
+metadata = ["color"]
 
 [storage cm_cal]
 type = "filesystem"

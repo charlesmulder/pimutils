@@ -26,15 +26,10 @@ systemctl --user enable vdirsyncer.time
 
 [Usage examples](http://lostpackets.de/khal/usage.html#examples)
 
-Generate config
+Link config
 
 ```sh
-khal configure
-```
-See config
-
-```sh
-cat /home/cm/.config/khal/config
+ln -s $(pwd)/khal/config /home/cm/.config/khal/config
 ```
 
 ### todomann

@@ -1,0 +1,17 @@
+[calendars]
+
+[[cm_cal]]
+path = ~/.local/share/calendars/*
+type = discover
+
+[default]
+default_calendar = personal
+
+[locale]
+local_timezone= Africa/Johannesburg
+default_timezone= Africa/Johannesburg
+timeformat = %H:%M
+dateformat = %Y-%m-%d
+longdateformat = %Y-%m-%d
+datetimeformat = %Y-%m-%d %H:%M
+longdatetimeformat = %Y-%m-%d %H:%M
