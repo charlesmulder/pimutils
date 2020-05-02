@@ -17,7 +17,7 @@ fileext = ".ics"
 type = "caldav"
 url = "https://nc.nl.tab.digital/remote.php/dav"
 username = "charliemulder"
-password.fetch = ["prompt", "Password for CalDAV"]
+password.fetch = ["command", "~/.vdirsyncer/get-password.sh"]
 
 [pair my_contact]
 a = "cm_contacts"
@@ -33,4 +33,4 @@ fileext = ".vcf"
 type = "carddav"
 url = "https://nc.nl.tab.digital/remote.php/dav/addressbooks/users/charliemulder/contacts"
 username = "charliemulder"
-password = "gsb6ttuxLGbh"
+password.fetch = ["command", "~/.vdirsyncer/get-password.sh"]
