@@ -58,6 +58,11 @@ ln -s $(pwd)/todoman/todoman.conf ~/.config/todoman/todoman.conf
 ln -s $(which todoman) ~/bin/todo
 ```
 
+## TODO: Security Improvements
+
+- [etesync](https://github.com/etesync/server)
+- [tahoe-lafs](https://tahoe-lafs.org)
+
 ## Resources
 
 - [Running as a systemd.timer](http://vdirsyncer.pimutils.org/en/stable/tutorials/systemd-timer.html)
