@@ -1,8 +1,12 @@
 [calendars]
 
-[[cm_cal]]
-path = ~/.local/share/calendars/*
-type = discover
+[[personal]]
+path = ~/.local/share/calendars/personal
+type = calendar
+
+[[birthdays]]
+path = ~/.local/share/calendars/birthdays
+type = calendar
 
 [default]
 default_calendar = personal
