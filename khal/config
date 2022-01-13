@@ -1,19 +1,15 @@
 [calendars]
 
-[[personal]]
-path = ~/.local/share/calendars/personal
-type = calendar
-
-[[birthdays]]
-path = ~/.local/share/calendars/birthdays
+[[default]]
+path = ~/.local/share/calendars/default
 type = calendar
 
 [default]
-default_calendar = personal
+default_calendar = default
 
 [locale]
-local_timezone= Africa/Harare
-default_timezone= Africa/Harare
+local_timezone= Europe/Dublin
+default_timezone= Europe/Dublin
 timeformat = %H:%M
 dateformat = %Y-%m-%d
 longdateformat = %Y-%m-%d
